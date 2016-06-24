@@ -1,6 +1,6 @@
 module AdjacentFloat
 
-!isdefined(Float) && typealias Float AbstractFloat;
+!isdefined(:Float) && typealias Float AbstractFloat;
 
 export prevFloat, nextFloat, nFloatsSeparate, nextNearerToZero, nextAwayFromZero
 
