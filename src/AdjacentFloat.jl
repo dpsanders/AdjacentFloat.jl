@@ -1,10 +1,6 @@
 module AdjacentFloat
 
-!isdefined(Main,:Float) 
-    typealias Float AbstractFloat
-else
-    typealias Float Main.Float
-end    
+typealias SysFloat Union{Float64, Float32}
 
 export prevFloat, nextFloat, nFloatsSeparate, nextNearerToZero, nextAwayFromZero
 
