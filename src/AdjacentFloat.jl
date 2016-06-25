@@ -1,6 +1,6 @@
 module AdjacentFloat
 
-typealias SysFloat Union{Float64, Float32}
+typealias StdFloat Union{Float64, Float32}
 
 export prevFloat, nextFloat, nFloatsSeparate, nextNearerToZero, nextAwayFromZero
 
