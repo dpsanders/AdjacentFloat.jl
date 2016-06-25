@@ -18,3 +18,10 @@ nFloatsSeparate(1.0, nextFloat(1.0,100))
 100
 
 ```
+
+### Exports
+```
+    prevFloat, nextFloat, 
+    nextNearerToZero, nextAwayFromZero,
+    nFloatsSeparate
+```
