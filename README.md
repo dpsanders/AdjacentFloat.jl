@@ -2,6 +2,7 @@
 fast versions of nextfloat(), prevfloat(), and closely related functions
 ```ruby
                                                         Jeffrey Sarnoff © 2016-Mar-22 at New York
+                                                                          2016-Jun-25 at v"0.1.0"
 ```
 
 ### Use
